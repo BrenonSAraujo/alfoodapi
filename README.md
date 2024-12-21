@@ -1,48 +1,62 @@
-# Getting Started with Create React App
-Node v18.18.0
-This project use a Docker to build their API
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f4dce359-935b-42b6-bb2a-603fa8a75ffe"/>
+<p align="center">
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=ABERTO%20PARA%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge" alt="" style="max-width: 100%;"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Tópicos
 
-## Available Scripts
 
-In the project directory, you can run:
+- [Descrição do projeto](#descrição-do-projeto)
 
-### `npm start`
+- [Funcionalidades](#funcionalidades)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Ferramentas utilizadas](#ferramentas-utilizadas)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Técnicas e Tecnologias Utilizadas](#técnicas-e-tecnologias-utilizadas)
 
-### `npm test`
+- [Acesso ao projeto](#acesso-ao-projeto)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Descrição do projeto 
 
-### `npm run build`
+<p align="justify">
+ Este projeto simula o backend de uma plataforma que disponibiliza cursos nos quais as pessoas podem escolher a categoria e o curso no qual pretendem ingressar.
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Funcionalidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+:heavy_check_mark: `Funcionalidade 1:` CRUD na API;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+:heavy_check_mark: `Funcionalidade 2:` Validações de formulário;
 
-### `npm run eject`
+:heavy_check_mark: `Funcionalidade 3:` Soft-Delete;
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+:heavy_check_mark: `Funcionalidade 4:` Relacionamento entre tabelas;
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+:heavy_check_mark: `Funcionalidade 5:` Escopos padrão;
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+:heavy_check_mark: `Funcionalidade 6:` Abstração das operações de banco por meio de um ORM;
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Ferramentas utilizadas
+[![My Skills](https://skillicons.dev/icons?i=nodejs,express,sequelize,sqlite,)](https://skillicons.dev)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+###
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ✔️ Técnicas e Tecnologias Utilizadas
+
+As principais técnicas e tecnologias abordadas são:
+
+- `NodeJS`: permite executar código JavaScript no lado do servidor;
+- `Express`: framework de aplicativo web para Node.js que simplifica a criação de aplicativos web e móveis;
+- `Sequelize`: ORM que permite a interação com bancos de dados relacionais, como o SQLite escolhido no projeto
+- `SQLite`: biblioteca compacta que implementa um banco de dados SQL sem a necessidade de um servidor.
+
+
+## Acesso ao projeto
+  - ``git clone https://github.com/BrenonSAraujo/orm-sequelize.git``: Clone o projeto do GitHub para a sua máquina
+  
+  - ``npm i``: Instale as dependências do projeto
+  
+  - ``npm run start``: inicie o servidor da aplicação
+    
