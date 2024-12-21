@@ -1,10 +1,11 @@
 <p align="center">
-<img src="https://github.com/user-attachments/assets/f4dce359-935b-42b6-bb2a-603fa8a75ffe"/>
+<img src="https://github.com/user-attachments/assets/177d70dc-529f-4c93-b762-87fecb6a4134"/>
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=ABERTO%20PARA%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge" alt="" style="max-width: 100%;"/>
 </p>
 
-### Tópicos
+### Tópicos!
+
 
 
 - [Descrição do projeto](#descrição-do-projeto)
@@ -20,26 +21,26 @@
 ## Descrição do projeto 
 
 <p align="justify">
- Este projeto simula o backend de uma plataforma que disponibiliza cursos nos quais as pessoas podem escolher a categoria e o curso no qual pretendem ingressar.
-</p>
+O Alfood é um site que exibe uma lista de restaurantes. Ele conta com uma rota na qual é possível administrá-los por meio de operações como cadastro, busca, atualização e/ou remoção. 
+ </p>
 
 ## Funcionalidades
 
-:heavy_check_mark: `Funcionalidade 1:` CRUD na API;
+:heavy_check_mark: `Funcionalidade 1:` CRUD na API no lado do cliente;
 
-:heavy_check_mark: `Funcionalidade 2:` Validações de formulário;
+:heavy_check_mark: `Funcionalidade 2:` Comunicação entre uma aplicação React e uma API REST;
 
-:heavy_check_mark: `Funcionalidade 3:` Soft-Delete;
+:heavy_check_mark: `Funcionalidade 3:` Implementação de hooks para buscar dados em uma API;
 
-:heavy_check_mark: `Funcionalidade 4:` Relacionamento entre tabelas;
+:heavy_check_mark: `Funcionalidade 4:` Avalia as informações da resposta da API;
 
-:heavy_check_mark: `Funcionalidade 5:` Escopos padrão;
+:heavy_check_mark: `Funcionalidade 5:` Integração entre o frontend ao backend;
 
-:heavy_check_mark: `Funcionalidade 6:` Abstração das operações de banco por meio de um ORM;
+:heavy_check_mark: `Funcionalidade 6:` Descrição do funcionamento de uma API a partir do Swagger;
 
 
 ## Ferramentas utilizadas
-[![My Skills](https://skillicons.dev/icons?i=nodejs,express,sequelize,sqlite,)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=ts,react,html,scss,docker)](https://skillicons.dev)
 
 ###
 
@@ -48,15 +49,19 @@
 As principais técnicas e tecnologias abordadas são:
 
 - `NodeJS`: permite executar código JavaScript no lado do servidor;
-- `Express`: framework de aplicativo web para Node.js que simplifica a criação de aplicativos web e móveis;
-- `Sequelize`: ORM que permite a interação com bancos de dados relacionais, como o SQLite escolhido no projeto
-- `SQLite`: biblioteca compacta que implementa um banco de dados SQL sem a necessidade de um servidor.
+- `Raect`: Biblioteca JS que permite a construção de interfaces de usuário (UI) para aplicativos web; 
+- `SCSS`: Extensão do CSS que permite escrever estilos para sites com uma sintaxe mais aprimorada;
+- `TypeScript`: Superconjunto do JavaScript, adicionando tipagem estática e outros recursos;
+- `Axios`: Biblioteca JavaScript que permite fazer requisições HTTP a partir do navegador ou servidor Node
 
 
 ## Acesso ao projeto
-  - ``git clone https://github.com/BrenonSAraujo/orm-sequelize.git``: Clone o projeto do GitHub para a sua máquina
+  - ``git clone https://github.com/BrenonSAraujo/alfood.git``: Clone o projeto do GitHub para a sua máquina
   
   - ``npm i``: Instale as dependências do projeto
-  
+ 
   - ``npm run start``: inicie o servidor da aplicação
+    
+  - Vá até o caminho onde fica a api restaurantes_api-master. Em seguida, digite :``docker-compose up -d``: para subir e rodar a aplicação.
+
     
